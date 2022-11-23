@@ -1,38 +1,94 @@
 .App {
+  
+}
+
+.center {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  background-image: url("images/background.jpg.webp");
+  background-size: cover;
+  background-position-y: center;
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
+  font-family: 'Hylia';
 }
 
-.App-link {
-  color: #61dafb;
+.App-body {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  font-family: 'Hylia';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Recipe-display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 20px 20px;
+}
+
+.Meal-item {
+  background-color: #99c07b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  font-family: 'Hylia';
+  width: 40vmin;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.Filter-display {
+  
+}
+
+.description {
+  display: inline;
+  font-size: calc(2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.label {
+  font-size: calc(5px + 2vmin);
+}
+
+.dark-green {
+  background-color: #89ad6e;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  font-family: 'Hylia';
+  width: 40vmin;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+@font-face {
+  font-family: "Hylia";
+  src: local('HyliaSerifBeta-Regular'),
+    url("./fonts/HyliaSerifBeta-Regular.otf") format('truetype');
 }

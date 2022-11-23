@@ -1,0 +1,936 @@
+{
+    "recipes": [
+        {
+            "name": "Apple Pie",
+            "desc": "\"The crispy, flaky pie crust and sweet apples are a match made in heaven.\"",
+            "ingredients": [
+                "Apple",
+                "Tabantha Wheat",
+                "Cane Sugar",
+                "Goat Butter"
+            ],
+            "resale": "50",
+            "image": "Apple Pie.png"
+        },
+        {
+            "name": "Copious Meat Skewers",
+            "desc": "\"Just shove a bunch of meat on to a skewer and you're good to go.\"",
+            "ingredients": [
+                "Raw Gourmet Meat",
+                "Raw Meat",
+                "Raw Prime Meat",
+                "Raw Bird Drumstick"
+            ],
+            "resale": "50",
+            "image": "Copious Meat Skewers.png"
+        },
+        {
+            "name": "Cream of Mushroom Soup",
+            "desc": "\"The creamy mushroom and vegetable soup is so chunky it eats like a meal!\"",
+            "ingredients": [
+                "Hylian Shroom",
+                "Hyrule Herb",
+                "Fresh Milk",
+                "Rock Salt"
+            ],
+            "resale": "0",
+            "image": "Cream of Mushroom Soup.png"
+        },
+        {
+            "name": "Cream of Vegetable Soup",
+            "desc": "\"Made by simmering vegetables in milk, this healthy dish is as simple as the ingredients.\"",
+            "ingredients": [
+                "Rock Salt",
+                "Hyrule Herb",
+                "Fresh Milk"
+            ],
+            "resale": "0",
+            "image": "Cream of Vegetable Soup.png"
+        },
+        {
+            "name": "Creamy Seafood Soup",
+            "desc": "\"Thick-cut chunks of seafood and stock provides a satisfying savoriness.\"",
+            "ingredients": [
+                "Hyrule Bass",
+                "Hyrule Herb",
+                "Fresh Milk",
+                "Rock Salt"
+            ],
+            "resale": "0",
+            "image": "Creamy Seafood Soup.png"
+        },
+        {
+            "name": "Curry Pilaf",
+            "desc": "\"The goron spice used in this pilaf has given it a rich, spicy aroma.\"",
+            "ingredients": [
+                "Hylian Rice",
+                "Goron Spice",
+                "Goat Butter"
+            ],
+            "resale": "0",
+            "image": "Curry Pilaf.png"
+        },
+        {
+            "name": "Curry Rice",
+            "desc": "\"A favorite all over Hyrule, this simple dish has a flavor you just won't get tired of.\"",
+            "ingredients": [
+                "Hylian Rice",
+                "Goron Spice"
+            ],
+            "resale": "0",
+            "image": "Curry Rice.png"
+        },
+        {
+            "name": "Egg Pudding",
+            "desc": "\"Made by cooking eggs and milk in a special mold, its soft texture melts in your mouth.\"",
+            "ingredients": [
+                "Fresh Milk",
+                "Bird Egg",
+                "Cane Sugar"
+            ],
+            "resale": "0",
+            "image": "Egg Pudding.png"
+        },
+        {
+            "name": "Egg Tart",
+            "desc": "\"You'll know this simple dessert is done baking when it smells just delightful.\"",
+            "ingredients": [
+                "Bird Egg",
+                "Tabantha Wheat",
+                "Cane Sugar",
+                "Goat Butter"
+            ],
+            "resale": "0",
+            "image": "Egg Tart.png"
+        },
+        {
+            "name": "Fish and Mushroom Skewer",
+            "desc": "\"A simple dish made by cooking skewered, fresh fish alongside fragrant mushrooms.\"",
+            "ingredients": [
+                "Hylian Shroom",
+                "Hyrule Bass"
+            ],
+            "resale": "0",
+            "image": "Fish and Mushroom Skewer.png"
+        },
+        {
+            "name": "Fish Pie",
+            "desc": "\"A mainstay in any fisherman's home, the crisp crust pairs well with the fishy flavor.\"",
+            "ingredients": [
+                "Hyrule Bass",
+                "Tabantha Wheat",
+                "Goat Butter",
+                "Rock Salt"
+            ],
+            "resale": "0",
+            "image": "Fish Pie.png"
+        },
+        {
+            "name": "Fish Skewer",
+            "desc": "\"A simple dish made by cooking chunks of fresh fish on a skewer.\"",
+            "ingredients": [
+                "Hyrule Bass"
+            ],
+            "resale": "0",
+            "image": "Fish Skewer.png"
+        },
+        {
+            "name": "Fragrant Mushroom Saute",
+            "desc": "\"The fragrant aroma of this sauteed spice and mushroom dish makes your mouth water.\"",
+            "ingredients": [
+                "Hylian Shroom",
+                "Goron Spice"
+            ],
+            "resale": "0",
+            "image": "Fragrant Mushroom Saute.png"
+        },
+        {
+            "name": "Fried Egg and Rice",
+            "desc": "\"The soft egg yolk pairs well with the fresh rice in this simple dish.\"",
+            "ingredients": [
+                "Hylian Rice",
+                "Bird Egg"
+            ],
+            "resale": "0",
+            "image": "Fried Egg and Rice.png"
+        },
+        {
+            "name": "Fried Wild Greens",
+            "desc": "\"A basic vegetable dish made by sauteing fresh wild plants.\"",
+            "ingredients": [
+                "Hyrule Herb"
+            ],
+            "resale": "0",
+            "image": "Fried Wild Greens.png"
+        },
+        {
+            "name": "Fruit and Mushroom Mix",
+            "desc": "\"This dish contrasts the sweetness of fruit with the savoriness of mushrooms.\"",
+            "ingredients": [
+                "Apple",
+                "Hylian Shroom"
+            ],
+            "resale": "0",
+            "image": "Fruit and Mushroom Mix.png"
+        },
+        {
+            "name": "Fruit Pie",
+            "desc": "\"A celebration isn't a celebration until this fruit-filled crust hits the table!\"",
+            "ingredients": [
+                "Wildberry",
+                "Tabantha Wheat",
+                "Cane Sugar",
+                "Goat Butter"
+            ],
+            "resale": "30",
+            "image": "Fruit Pie.png"
+        },
+        {
+            "name": "Fruitcake",
+            "desc": "\"Making ample use of fruits found all over Hyrule, this cake is a must for celebrations.\"",
+            "ingredients": [
+                "Apple",
+                "Wildberry",
+                "Tabantha Wheat",
+                "Cane Sugar"
+            ],
+            "resale": "0",
+            "image": "Fruitcake.png"
+        },
+        {
+            "name": "Gourmet Meat and Rice Bowl",
+            "desc": "\"Only the most carefully selected cuts of high-quality meats go into this dish.\"",
+            "ingredients": [
+                "Raw Gourmet Meat",
+                "Hylian Rice",
+                "Rock Salt"
+            ],
+            "resale": "0",
+            "image": "Gourmet Meat and Rice Bowl.png"
+        },
+        {
+            "name": "Gourmet Meat and Seafood Fry",
+            "desc": "\"A marriage of the choicest cuts of meat and seafood. As delicious as it is filling!\"",
+            "ingredients": [
+                "Raw Gourmet Meat",
+                "Hyrule Bass"
+            ],
+            "resale": "0",
+            "image": "Gourmet Meat and Seafood Fry.png"
+        },
+        {
+            "name": "Gourmet Meat Curry",
+            "desc": "\"The high-quality meat used in this prized dish satisfies meat and curry lovers alike.\"",
+            "ingredients": [
+                "Raw Gourmet Meat",
+                "Hylian Rice",
+                "Goron Spice"
+            ],
+            "resale": "0",
+            "image": "Gourmet Meat Curry.png"
+        },
+        {
+            "name": "Gourmet Meat Stew",
+            "desc": "\"The meat has simmered for so long it melts in your mouth. A true bucket-list meal!\"",
+            "ingredients": [
+                "Raw Gourmet Meat",
+                "Tabantha Wheat",
+                "Goat Butter",
+                "Fresh Milk"
+            ],
+            "resale": "0",
+            "image": "Gourmet Meat Stew.png"
+        },
+        {
+            "name": "Gourmet Poultry Curry",
+            "desc": "\"Once served in Hyrule Castle, the poultry used in this dish is of immensely high quality.\"",
+            "ingredients": [
+                "Raw Whole Bird",
+                "Hylian Rice",
+                "Goron Spice"
+            ],
+            "resale": "0",
+            "image": "Gourmet Poultry Curry.png"
+        },
+        {
+            "name": "Gourmet Poultry Pilaf",
+            "desc": "\"Made with the highest-quality poultry, every bite of this pilaf floods your mouth with flavor.\"",
+            "ingredients": [
+                "Raw Whole Bird",
+                "Hylian Rice",
+                "Bird Egg",
+                "Goat Butter"
+            ],
+            "resale": "0",
+            "image": "Gourmet Poultry Pilaf.png"
+        },
+        {
+            "name": "Gourmet Spiced Meat Skewer",
+            "desc": "\"The rich aroma and juicy texture of this high-quality meat puts it in a league of its own.\"",
+            "ingredients": [
+                "Raw Gourmet Meat",
+                "Goron Spice"
+            ],
+            "resale": "0",
+            "image": "Gourmet Spiced Meat Skewer.png"
+        },
+        {
+            "name": "Herb Saute",
+            "desc": "\"A fragrant mixture of herbs and spices. It's easily recognized by its unique aroma.\"",
+            "ingredients": [
+                "Hyrule Herb",
+                "Goron Spice"
+            ],
+            "resale": "0",
+            "image": "Herb Saute.png"
+        },
+        {
+            "name": "Hot Buttered Apple",
+            "desc": "\"The apple's sweetness has been enhanced by smothering it with butter and baking it.\"",
+            "ingredients": [
+                "Apple",
+                "Goat Butter"
+            ],
+            "resale": "0",
+            "image": "Hot Buttered Apple.png"
+        },
+        {
+            "name": "Meat and Mushroom Skewer",
+            "desc": "\"A filling dish made by grilling various mountain ingredients with either steak or bird meat.\"",
+            "ingredients": [
+                "Raw Meat",
+                "Hylian Shroom"
+            ],
+            "resale": "0",
+            "image": "Meat and Mushroom Skewer.png"
+        },
+        {
+            "name": "Meat and Rice Bowl",
+            "desc": "\"This dish of rice and lightly seared meat is a mainstay all throughout Hyrule.\"",
+            "ingredients": [
+                "Raw Meat",
+                "Hylian Rice",
+                "Rock Salt"
+            ],
+            "resale": "0",
+            "image": "Meat and Rice Bowl.png"
+        },
+        {
+            "name": "Meat and Seafood Fry",
+            "desc": "\"A filling dish made by cooking fresh seafood and meat together.\"",
+            "ingredients": [
+                "Hyrule Bass",
+                "Raw Bird Drumstick"
+            ],
+            "resale": "0",
+            "image": "Meat and Seafood Fry.png"
+        },
+        {
+            "name": "Meat Curry",
+            "desc": "\"The heat from the spice allows you to enjoy the large portion of the meat's savoriness.\"",
+            "ingredients": [
+                "Goron Spice",
+                "Raw Meat",
+                "Hylian Rice"
+            ],
+            "resale": "0",
+            "image": "Meat Curry.png"
+        },
+        {
+            "name": "Meat Pie",
+            "desc": "\"You'll need an extra napkin to deal with this juicy pie of perfectly baked minced meat.\"",
+            "ingredients": [
+                "Tabantha Wheat",
+                "Goat Butter",
+                "Rock Salt",
+                "Raw Gourmet Meat"
+            ],
+            "resale": "110",
+            "image": "Meat Pie.png"
+        },
+        {
+            "name": "Meat Skewer",
+            "desc": "\"A juicy, filling snack made by grilling small chunks of meat on a skewer.\"",
+            "ingredients": [
+                "Raw Meat"
+            ],
+            "resale": "0",
+            "image": "Meat Skewer.png"
+        },
+        {
+            "name": "Meat Stew",
+            "desc": "\"The hearty meat in this mainstay dish leaves bellies satisfied all throughout Hyrule.\"",
+            "ingredients": [
+                "Raw Meat",
+                "Fresh Milk",
+                "Tabantha Wheat",
+                "Goat Butter"
+            ],
+            "resale": "0",
+            "image": "Meat Stew.png"
+        },
+        {
+            "name": "Meaty Rice Balls",
+            "desc": "\"The sweet and spicy meat stuffed into these rice balls will keep you full for some time.\"",
+            "ingredients": [
+                "Raw Meat",
+                "Hylian Rice"
+            ],
+            "resale": "0",
+            "image": "Meaty Rice Balls.png"
+        },
+        {
+            "name": "Milk",
+            "desc": "\"Make this by heating up some milk. Drink it before bed to ensure a good night's sleep.\"",
+            "ingredients": [
+                "Fresh Milk"
+            ],
+            "resale": "0",
+            "image": "Milk.png"
+        },
+        {
+            "name": "Monster Cake",
+            "desc": "\"It's said that once you have a taste of this cake, you'll never forget its sweetness.\"",
+            "ingredients": [
+                "Monster Extract",
+                "Tabantha Wheat",
+                "Cane Sugar",
+                "Goat Butter."
+            ],
+            "resale": "0",
+            "image": "Monster Cake.png"
+        },
+        {
+            "name": "Monster Curry",
+            "desc": "\"This unusual take on curry uses monster extract and doesn't rely on spices.\"",
+            "ingredients": [
+                "Hylian Rice",
+                "Goron Spice",
+                "Monster Extract"
+            ],
+            "resale": "0",
+            "image": "Monster Curry.png"
+        },
+        {
+            "name": "Mushroom Rice Balls",
+            "desc": "\"The aroma of the mushrooms tickles your nose as you peel back the leafy wrapping.\"",
+            "ingredients": [
+                "Hylian Shroom",
+                "Hylian Rice"
+            ],
+            "resale": "0",
+            "image": "Mushroom Rice Balls.png"
+        },
+        {
+            "name": "Mushroom Risotto",
+            "desc": "\"The tantalizing aroma of mushrooms and butter beckons you to the table.\"",
+            "ingredients": [
+                "Hylian Rice",
+                "Goat Butter",
+                "Rock Salt"
+            ],
+            "resale": "0",
+            "image": "Mushroom Risotto.png"
+        },
+        {
+            "name": "Mushroom Skewer",
+            "desc": "\"This simple mushroom-packed skewer has its colorful presentation to thank for its appeal.\"",
+            "ingredients": [
+                "Hylian Shroom"
+            ],
+            "resale": "0",
+            "image": "Mushroom Skewer.png"
+        },
+        {
+            "name": "Nutcake",
+            "desc": "\"Forest nuts give this cake a pleasant texture and a simple, understated sweetness.\"",
+            "ingredients": [
+                "Acorn",
+                "Tabantha Wheat",
+                "Cane Sugar",
+                "Goat Butter"
+            ],
+            "resale": "0",
+            "image": "Nutcake.png"
+        },
+        {
+            "name": "Omelet",
+            "desc": "\"This simple dish is common all over Hyrule. Simply fry egg until it's nice and plump.\"",
+            "ingredients": [
+                "Bird Egg"
+            ],
+            "resale": "0",
+            "image": "Omelet.png"
+        },
+        {
+            "name": "Plain Crepe",
+            "desc": "\"The simplicity of this dish lets the flavor of its ingredients shine.\"",
+            "ingredients": [
+                "Fresh Milk",
+                "Bird Egg",
+                "Tabantha Wheat",
+                "Cane Sugar"
+            ],
+            "resale": "0",
+            "image": "Plain Crepe.png"
+        },
+        {
+            "name": "Poultry Curry",
+            "desc": "\"The savory meat pairs well with the aroma of spice in this common curry.\"",
+            "ingredients": [
+                "Raw Bird Drumstick",
+                "Hylian Rice",
+                "Goron Spice"
+            ],
+            "resale": "0",
+            "image": "Poultry Curry.png"
+        },
+        {
+            "name": "Poultry Pilaf",
+            "desc": "\"Sauteed Hylian rice steamed in poultry broth. Cook on low heat until the rice is fluffy.\"",
+            "ingredients": [
+                "Raw Bird Drumstick",
+                "Hylian Rice",
+                "Bird Egg",
+                "Goat Butter"
+            ],
+            "resale": "0",
+            "image": "Poultry Pilaf.png"
+        },
+        {
+            "name": "Salt-Grilled Fish",
+            "desc": "\"A simple dish made by rolling a whole fish in natural rock salt before grilling it.\"",
+            "ingredients": [
+                "Rock Salt",
+                "Hyrule Bass"
+            ],
+            "resale": "0",
+            "image": "Salt-Grilled Fish.png"
+        },
+        {
+            "name": "Salt-Grilled Gourmet Meat",
+            "desc": "\"This lavish grilled dish makes liberal use of high-quality cuts of meat.\"",
+            "ingredients": [
+                "Raw Prime Meat",
+                "Raw Gourmet Meat",
+                "Rock Salt"
+            ],
+            "resale": "0",
+            "image": "Salt-Grilled Gourmet Meat.png"
+        },
+        {
+            "name": "Salt-Grilled Greens",
+            "desc": "\"A health-boosting dish made with leafy greens and a touch of salt.\"",
+            "ingredients": [
+                "Hyrule Herb",
+                "Rock Salt"
+            ],
+            "resale": "0",
+            "image": "Salt-Grilled Greens.png"
+        },
+        {
+            "name": "Salt-Grilled Meat",
+            "desc": "\"Short on ingredients? Just rub some meat in salt and cook it for a simple, tasty dish.\"",
+            "ingredients": [
+                "Raw Bird Drumstick",
+                "Rock Salt"
+            ],
+            "resale": "0",
+            "image": "Salt-Grilled Meat.png"
+        },
+        {
+            "name": "Salt-Grilled Mushrooms",
+            "desc": "\"A basic mushroom dish made by lightly salting mushrooms and grilling them.\"",
+            "ingredients": [
+                "Hylian Shroom",
+                "Rock Salt"
+            ],
+            "resale": "0",
+            "image": "Salt-Grilled Mushrooms.png"
+        },
+        {
+            "name": "Seafood Meuniere",
+            "desc": "\"Rich butter flanks fresh seafood. The secret ingredient is lots and lots of love.\"",
+            "ingredients": [
+                "Tabantha Wheat",
+                "Goat Butter",
+                "Hyrule Bass"
+            ],
+            "resale": "0",
+            "image": "Seafood Meuniere.png"
+        },
+        {
+            "name": "Seafood Rice Balls",
+            "desc": "\"Stuffed with aromatic seafood, the flavor can vary by ingredients but never disappoints.\"",
+            "ingredients": [
+                "Hylian Rice",
+                "Hyrule Bass"
+            ],
+            "resale": "0",
+            "image": "Seafood Rice Balls.png"
+        },
+        {
+            "name": "Simmered Fruit",
+            "desc": "\"This sweet dish is made by heaping tasty fruits into a pan and simmering until tender.\"",
+            "ingredients": [
+                "Apple"
+            ],
+            "resale": "0",
+            "image": "Simmered Fruit.png"
+        },
+        {
+            "name": "Spiced Meat Skewer",
+            "desc": "\"A special Goron spice covers up the scent of the meat, allowing its flavor to shine.\"",
+            "ingredients": [
+                "Raw Meat",
+                "Goron Spice"
+            ],
+            "resale": "0",
+            "image": "Spiced Meat Skewer.png"
+        },
+        {
+            "name": "Steamed Fish",
+            "desc": "\"A refined dish made by wrapping a fresh fish in fragrant wild greens and cooking it.\"",
+            "ingredients": [
+                "Hyrule Herb",
+                "Hyrule Bass"
+            ],
+            "resale": "0",
+            "image": "Steamed Fish.png"
+        },
+        {
+            "name": "Steamed Fruit",
+            "desc": "\"A regional dish made by steaming near-ripened fruits in the leaves of fragrant plants.\"",
+            "ingredients": [
+                "Apple",
+                "Hyrule Herb"
+            ],
+            "resale": "0",
+            "image": "Steamed Fruit.png"
+        },
+        {
+            "name": "Steamed Meat",
+            "desc": "\"This meat dish has been wrapped in fragrant leaves and steamed to preserve its moisture.\"",
+            "ingredients": [
+                "Hyrule Herb",
+                "Raw Meat"
+            ],
+            "resale": "0",
+            "image": "Steamed Meat.png"
+        },
+        {
+            "name": "Steamed Mushrooms",
+            "desc": "\"A healthy vegetable dish achieved by steaming mushrooms in plant leaves.\"",
+            "ingredients": [
+                "Hylian Shroom",
+                "Hyrule Herb"
+            ],
+            "resale": "0",
+            "image": "Steamed Mushrooms.png"
+        },
+        {
+            "name": "Veggie Rice Balls",
+            "desc": "\"This home-style dish of Kakariko Village is stuffed with the bounty of the mountains.\"",
+            "ingredients": [
+                "Hylian Rice",
+                "Hyrule Herbs"
+            ],
+            "resale": "0",
+            "image": "Veggie Rice Balls.png"
+        },
+        {
+            "name": "Wheat Bread",
+            "desc": "\"Made with wheat from the Tabantha region, this soft, springy bread smells just heavenly.\"",
+            "ingredients": [
+                "Tabantha Wheat",
+                "Rock Salt"
+            ],
+            "resale": "0",
+            "image": "Wheat Bread.png"
+        },
+        {
+            "name": "Carrot Cake",
+            "desc": "\"Even those who don't like carrots tend to enjoy the mild sweetness of this cake.\"",
+            "ingredients": [
+                "Swift Carrot",
+                "Endura Carrot",
+                "Tabantha Wheat",
+                "Cane Sugar",
+                "Goat Butter"
+            ],
+            "resale": "0",
+            "image": "Carrot Cake.png"
+        },
+        {
+            "name": "Clam Chowder",
+            "desc": "\"The nutritional value of hearty blueshell snail combines with butter and milk in a rich soup.\"",
+            "ingredients": [
+                "Fresh Milk",
+                "Tabantha Wheat",
+                "Goat Butter"
+            ],
+            "resale": "60",
+            "image": "Clam Chowder.png"
+        },
+        {
+            "name": "Crab Risotto",
+            "desc": "\"An everyday stable of seaside villages, the secret to its delicious flavor lies in crab fat.\"",
+            "ingredients": [
+                "Hylian Rice",
+                "Goat Butter",
+                "Rock Salt",
+                "Razorclaw Crab"
+            ],
+            "resale": "40",
+            "image": "Crab Risotto.png"
+        },
+        {
+            "name": "Crab Stir-Fry",
+            "desc": "\"The Goron spice used in preparing this crab pairs perfectly with the flavor of the meat.\"",
+            "ingredients": [
+                "Razorclaw Crab",
+                "Goron Spice"
+            ],
+            "resale": "30",
+            "image": "Crab Stir-Fry.png"
+        },
+        {
+            "name": "Creamy Heart Soup",
+            "desc": "\"Enjoying this sweet soup with another person will bring you both closer together.\"",
+            "ingredients": [
+                "Fresh Milk",
+                "Voltfruit",
+                "Hydromelon",
+                "Hearty Radish"
+            ],
+            "resale": "0",
+            "image": "Creamy Heart Soup.png"
+        },
+        {
+            "name": "Fried Bananas",
+            "desc": "\"Children love fried mighty bananas. The trick is frying them over very high heat.\"",
+            "ingredients": [
+                "Mighty Bananas",
+                "Tabantha Wheat",
+                "Cane Sugar"
+            ],
+            "resale": "30",
+            "image": "Fried Bananas.png"
+        },
+        {
+            "name": "Glazed Meat",
+            "desc": "\"The sweetness of the honey permeates the meat, giving it a complex taste profile.\"",
+            "ingredients": [
+                "Spicy Pepper",
+                "Raw Meat",
+                "Courser Bee Honey"
+            ],
+            "resale": "0",
+            "image": "Glazed Meat.png"
+        },
+        {
+            "name": "Glazed Mushrooms",
+            "desc": "\"The honey in this mushroom dish gives it a sweet, complex taste and a savory finish.\"",
+            "ingredients": [
+                "Endura Shroom",
+                "Courser Bee Honey"
+            ],
+            "resale": "0",
+            "image": "Glazed Mushrooms.png"
+        },
+        {
+            "name": "Glazed Veggies",
+            "desc": "\"Don't like the taste of vegetables? Simply saute them in honey for a salty-sweet flavor!\"",
+            "ingredients": [
+                "Courser Bee Honey",
+                "Cool Safflina"
+            ],
+            "resale": "0",
+            "image": "Glazed Veggies.png"
+        },
+        {
+            "name": "Honeyed Apple",
+            "desc": "\"A juicy sweet-and-sour dish combining newly ripened apples with honey.\"",
+            "ingredients": [
+                "Apple",
+                "Courser Bee Honey"
+            ],
+            "resale": "0",
+            "image": "Honeyed Apple.png"
+        },
+        {
+            "name": "Meat-Stuffed Pumpkin",
+            "desc": "\"This hollow, meat-filled fortified pumpkin is a local specialty of Kakariko Village.\"",
+            "ingredients": [
+                "Fortified Pumpkin",
+                "Raw Bird Drumstick"
+            ],
+            "resale": "30",
+            "image": "Meat-Stuffed Pumpkin.png"
+        },
+        {
+            "name": "Pepper Seafood",
+            "desc": "\"The pepper seeds grilled with this seafood draw out its taste and pleasant aroma.\"",
+            "ingredients": [
+                "Hyrule Bass",
+                "Spicy Pepper"
+            ],
+            "resale": "0",
+            "image": "Pepper Seafood.png"
+        },
+        {
+            "name": "Pepper Steak",
+            "desc": "\"The meat has been cooked in crushed peppers to accentuate its natural taste.\"",
+            "ingredients": [
+                "Spicy Pepper",
+                "Mighty Thistle",
+                "Raw Bird Drumstick"
+            ],
+            "resale": "0",
+            "image": "Pepper Steak.png"
+        },
+        {
+            "name": "Porgy Meuniere",
+            "desc": "\"Popular among residents of coastal regions, this juicy porgy is a delish dish.\"",
+            "ingredients": [
+                "Tabantha Wheat",
+                "Goat Butter",
+                "Armored Porgy",
+                "Mighty Porgy"
+            ],
+            "resale": "0",
+            "image": "Porgy Meuniere.png"
+        },
+        {
+            "name": "Pumpkin Stew",
+            "desc": "\"Simply simmer a fortified pumpkin to make this dish. A favorite in Kakariko Village.\"",
+            "ingredients": [
+                "Fortified Pumpkin",
+                "Fresh Milk",
+                "Tabantha Wheat",
+                "Goat Butter"
+            ],
+            "resale": "0",
+            "image": "Pumpkin Stew.png"
+        },
+        {
+            "name": "Seafood Fried Rice",
+            "desc": "\"Various seafood has been sauteed with rice. The stronger the flame, the tastier the dish!\"",
+            "ingredients": [
+                "Hylian Rice",
+                "Rock Salt",
+                "Hearty Blueshell Snail"
+            ],
+            "resale": "0",
+            "image": "Seafood Fried Rice.png"
+        },
+        {
+            "name": "Seafood Paella",
+            "desc": "\"No fisherman's birthday bash would be complete without this top-shelf seafood dish.\"",
+            "ingredients": [
+                "Hylian Rice",
+                "Goat Butter",
+                "Rock Salt",
+                "Mighty Porgy",
+                "Hearty Blueshell Snail"
+            ],
+            "resale": "0",
+            "image": "Seafood Paella.png"
+        },
+        {
+            "name": "Seafood Skewer",
+            "desc": "\"The natural water in this medley of seafaring creatures makes for a delicious broth.\"",
+            "ingredients": [
+                "Razorclaw Crab"
+            ],
+            "resale": "20",
+            "image": "Seafood Skewer.png"
+        },
+        {
+            "name": "Vegetable Curry",
+            "desc": "\"This healthy curry is popular for its mild flavor and moderate spiciness.\"",
+            "ingredients": [
+                "Swift Carrot",
+                "Endura Carrot",
+                "Hylian Rice",
+                "Goron Spice"
+            ],
+            "resale": "0",
+            "image": "Vegetable Curry.png"
+        },
+        {
+            "name": "Veggie Cream Soup",
+            "desc": "\"This creamy soup showcases the sweetness of vegetables in a veritable taste explosion.\"",
+            "ingredients": [
+                "Swift Carrot",
+                "Fresh Milk",
+                "Rock Salt",
+                "Monster Extract"
+            ],
+            "resale": "0",
+            "image": "Veggie Cream Soup.png"
+        },
+        {
+            "name": "Energizing Honey Crepe",
+            "desc": "\"Honey has been drizzled over thin crepes to bring out their natural sweetness and flavor.\"",
+            "ingredients": [
+                "Acorn",
+                "Tabantha Wheat",
+                "Courser Bee Honey",
+                "Goat Butter",
+                "Cane Sugar"
+            ],
+            "resale": "0",
+            "image": "Energizing Honey Crepe.png"
+        },
+        {
+            "name": "Spicy Sauteed Peppers",
+            "desc": "\"The spiciness of these sauteed peppers has been broken by the heat for a sweeter taste.\"",
+            "ingredients": [
+                "Spicy Pepper"
+            ],
+            "resale": "0",
+            "image": "Spicy Sauteed Peppers.png"
+        }
+    ],
+    "ingredients": [
+        "Hyrule Bass",
+        "Goron Spice",
+        "Fresh Milk",
+        "Rock Salt",
+        "Tabantha Wheat",
+        "Hearty Blueshell Snail",
+        "Endura Shroom",
+        "Hyrule Herbs",
+        "Goat Butter",
+        "Wildberry",
+        "Hylian Rice",
+        "Bird Egg",
+        "Cane Sugar",
+        "Raw Gourmet Meat",
+        "Raw Prime Meat",
+        "Mighty Thistle",
+        "Razorclaw Crab",
+        "Swift Carrot",
+        "Mighty Bananas",
+        "Goat Butter.",
+        "Endura Carrot",
+        "Hearty Radish",
+        "Hylian Shroom",
+        "Courser Bee Honey",
+        "Cool Safflina",
+        "Fortified Pumpkin",
+        "Acorn",
+        "Raw Meat",
+        "Mighty Porgy",
+        "Apple",
+        "Spicy Pepper",
+        "Hyrule Herb",
+        "Voltfruit",
+        "Monster Extract",
+        "Armored Porgy",
+        "Raw Whole Bird",
+        "Hydromelon",
+        "Raw Bird Drumstick"
+    ]
+}
