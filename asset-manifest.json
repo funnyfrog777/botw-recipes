@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/botw-recipes/static/css/main.073c9b0a.css",
-    "main.js": "/botw-recipes/static/js/main.7489dad2.js",
-    "static/media/logo.svg": "/botw-recipes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/botw-recipes/static/css/main.0a4732cd.css",
+    "main.js": "/botw-recipes/static/js/main.28ce7182.js",
+    "static/media/background.jpg.webp": "/botw-recipes/static/media/background.jpg.a94a492375da09167798.webp",
+    "static/media/HyliaSerifBeta-Regular.otf": "/botw-recipes/static/media/HyliaSerifBeta-Regular.587194a6240d0f662864.otf",
     "index.html": "/botw-recipes/index.html",
-    "main.073c9b0a.css.map": "/botw-recipes/static/css/main.073c9b0a.css.map",
-    "main.7489dad2.js.map": "/botw-recipes/static/js/main.7489dad2.js.map"
+    "main.0a4732cd.css.map": "/botw-recipes/static/css/main.0a4732cd.css.map",
+    "main.28ce7182.js.map": "/botw-recipes/static/js/main.28ce7182.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.7489dad2.js"
+    "static/css/main.0a4732cd.css",
+    "static/js/main.28ce7182.js"
   ]
 }
