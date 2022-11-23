@@ -58,7 +58,8 @@
 }
 
 .Filter-display {
-  
+  display: flex;
+  padding: 1em;
 }
 
 .description {
@@ -69,6 +70,17 @@
 
 .label {
   font-size: calc(5px + 2vmin);
+}
+
+.small-font {
+  font-size: calc(2vmin);
+  padding-right: 10px;
+}
+
+.inline {
+  display: inline;
+  float: left;
+  white-space: nowrap;
 }
 
 .dark-green {

@@ -15,7 +15,7 @@
     - [ ] Button that adds or removes from aggregator (number that display how many are added to cart, with a minus and plus button on either side to add to cart)
 
 ### Link to Deployed Website
-If you used the stencil code, this is `https://<your GitHub username>.github.io/<name of your repository>`
+If you used the stencil code, this is `https://funnyfrog777.github.io/botw-recipes`
 
 ### Goal and Value of the Application
 TODO
