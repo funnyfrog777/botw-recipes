@@ -1,17 +1,10 @@
-export default function Filter({name, ingredients, setIngredients}) {
+export default function Filter({index, name, ingredients, setIngredients}) {
 
     const handleClick = () => {
-        var array = [...ingredients];
-        var index = array.indexOf(name);
-        var el = document.querySelector('#dateCheckbox');
-        if (index !== -1) {
-            array.splice(index, 1);
-            setIngredients(array);
-            el.removeAttribute('')
-        } else {
-            setIngredients([...array, name]);
-        }
-
+        var temp = ingredients;
+        temp[index] = !ingredients[index];
+        setIngredients(temp);
+        console.log(ingredients);
     }
 
     return (

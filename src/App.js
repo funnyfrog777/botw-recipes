@@ -11,7 +11,7 @@ recipeData.recipes.forEach((item) => {
 recipeData.ingredients.sort();
 
 function App() {
-  const [ingredients, setIngredients] = useState(recipeData.ingredients);
+  const [ingredients, setIngredients] = useState(new Array(recipeData.ingredients.length).fill(true));
   const [isAllClicked, setIsAllClicked] = useState(true);
   const handleAllClick = () => {
     // TODO
@@ -31,13 +31,18 @@ function App() {
               <label for="All Ingredients" className="small-font"> All Ingredients </label>
             </div>
             {recipeData.ingredients.map((item, index) => (
-              <Filter name={item} ingredients={ingredients} setIngredients={setIngredients}/>
+              <Filter index={index} name={item} ingredients={ingredients} setIngredients={setIngredients}/>
             ))}
           </fieldset>
         </div>
         <div className="Recipe-display">
           {recipeData.recipes.map((item, index) => {
-            if (item.ingredients.every(i=> ingredients.includes(i))) {
+            if (ingredients.every(i=> i === true)) {
+            // if (item.ingredients.every(i=> ingredients[recipeData.ingredients.indexOf(i)])) {
+              // console.log(ingredients);
+              // console.log(recipeData.recipes[0].name);
+              // console.log(recipeData.recipes[0].ingredients);
+              // console.log(recipeData.recipes[0].ingredients.every(i=> ingredients[recipeData.ingredients.indexOf(i)]));
               return <MealItem img={item.image} name={item.name} desc={item.desc} resale={item.resale} ingredients={item.ingredients}/>
             }
           })}

@@ -16,5 +16,5 @@ export default function MealItem({img, name, desc, resale, ingredients}) {
                 </div>
             </div>
         </div>
-    )
+    );
 }
