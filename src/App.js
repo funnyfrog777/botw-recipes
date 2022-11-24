@@ -8,11 +8,14 @@ import Filter from './components/Filter';
 recipeData.recipes.forEach((item) => {
   item.image = process.env.PUBLIC_URL + "/images/" + item.image;
 });
-
 recipeData.ingredients.sort();
 
 function App() {
   const [ingredients, setIngredients] = useState(recipeData.ingredients);
+  const [isAllClicked, setIsAllClicked] = useState(true);
+  const handleAllClick = () => {
+    // TODO
+  }
 
   return (
     <div className="App">
@@ -20,13 +23,13 @@ function App() {
         <h1>Breath of the Wild Recipes</h1>
       </header>
       <body className="App-body">
-        <div>
-          <p>{ingredients.length}</p>
-        </div>
         <div className="Filter-display">
           <fieldset>
             <legend>Ingredients</legend>
-            <div><input type="checkbox" id="All Ingredients" name="All Ingredients" checked/><label for="All Ingredients" className="small-font"> All Ingredients </label></div>
+            <div>
+              <input type="checkbox" id="All Ingredients" name="All Ingredients" defaultChecked={isAllClicked} onClick={handleAllClick}/>
+              <label for="All Ingredients" className="small-font"> All Ingredients </label>
+            </div>
             {recipeData.ingredients.map((item, index) => (
               <Filter name={item} ingredients={ingredients} setIngredients={setIngredients}/>
             ))}

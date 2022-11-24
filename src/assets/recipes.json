@@ -395,7 +395,7 @@
                 "Monster Extract",
                 "Tabantha Wheat",
                 "Cane Sugar",
-                "Goat Butter."
+                "Goat Butter"
             ],
             "resale": "0",
             "image": "Monster Cake.png"
@@ -633,7 +633,7 @@
             "desc": "\"This home-style dish of Kakariko Village is stuffed with the bounty of the mountains.\"",
             "ingredients": [
                 "Hylian Rice",
-                "Hyrule Herbs"
+                "Hyrule Herb"
             ],
             "resale": "0",
             "image": "Veggie Rice Balls.png"
@@ -901,7 +901,6 @@
         "Tabantha Wheat",
         "Hearty Blueshell Snail",
         "Endura Shroom",
-        "Hyrule Herbs",
         "Goat Butter",
         "Wildberry",
         "Hylian Rice",
@@ -913,7 +912,6 @@
         "Razorclaw Crab",
         "Swift Carrot",
         "Mighty Bananas",
-        "Goat Butter.",
         "Endura Carrot",
         "Hearty Radish",
         "Hylian Shroom",
