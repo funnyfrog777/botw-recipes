@@ -1,4 +1,16 @@
-export default function MealItem({img, name, desc, resale, ingredients}) {
+export default function MealItem({img, name, desc, resale, ingredients, cart, setCart}) {
+    const handleClick = () => {
+        var temp = cart;
+        if (name in cart) {
+            temp[name] += 1;
+            setCart(temp);
+        } else {
+            temp[name] = 1;
+            setCart(temp);
+        }
+        console.log(cart);
+    }
+
     return (
         <div>
             <div className="Meal-item">
@@ -14,6 +26,9 @@ export default function MealItem({img, name, desc, resale, ingredients}) {
                         <p>- {item}</p>
                     ))}
                 </div>
+            </div>
+            <div className="add-items">
+                <button className="button" onClick={handleClick}>Add Recipe</button>
             </div>
         </div>
     )

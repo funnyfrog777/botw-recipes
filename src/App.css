@@ -62,10 +62,44 @@
   padding: 1em;
 }
 
+.Cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-style: solid;
+  width: 50%;
+  padding: 1em;
+}
+
 .description {
   display: inline;
   font-size: calc(2vmin);
   color: rgb(255, 255, 255);
+}
+
+.dark-green {
+  background-color: #89ad6e;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  font-family: 'Hylia';
+  width: 40vmin;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.3em;
+}
+
+.add-items {
+  background-color: #89ad6e;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .label {
@@ -83,20 +117,13 @@
   white-space: nowrap;
 }
 
-.dark-green {
-  background-color: #89ad6e;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
+.button {
+  background-color: #345a40;
   color: rgb(255, 255, 255);
+  border-radius: 6px;
   font-family: 'Hylia';
-  width: 40vmin;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
+  font-size: calc(2vmin);
+  margin: 1vmin;
 }
 
 @font-face {

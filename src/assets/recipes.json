@@ -9,7 +9,7 @@
                 "Cane Sugar",
                 "Goat Butter"
             ],
-            "resale": "50",
+            "resale": "28",
             "image": "Apple Pie.png"
         },
         {
@@ -21,7 +21,7 @@
                 "Raw Prime Meat",
                 "Raw Bird Drumstick"
             ],
-            "resale": "50",
+            "resale": "158",
             "image": "Copious Meat Skewers.png"
         },
         {
@@ -33,7 +33,7 @@
                 "Fresh Milk",
                 "Rock Salt"
             ],
-            "resale": "0",
+            "resale": "26",
             "image": "Cream of Mushroom Soup.png"
         },
         {
@@ -44,8 +44,20 @@
                 "Hyrule Herb",
                 "Fresh Milk"
             ],
-            "resale": "0",
+            "resale": "16",
             "image": "Cream of Vegetable Soup.png"
+        },
+        {
+            "name": "Creamy Meat Soup",
+            "desc": "\"This nutritious soup contains serious portions of lightly-braised meat and many vegetables.\"",
+            "ingredients": [
+                "Hearty Radish",
+                "Raw Prime Meat",
+                "Fresh Milk",
+                "Rock Salt"
+            ],
+            "resale": "67",
+            "image": "Creamy Meat Soup.png"
         },
         {
             "name": "Creamy Seafood Soup",
@@ -56,7 +68,7 @@
                 "Fresh Milk",
                 "Rock Salt"
             ],
-            "resale": "0",
+            "resale": "33",
             "image": "Creamy Seafood Soup.png"
         },
         {
@@ -67,7 +79,7 @@
                 "Goron Spice",
                 "Goat Butter"
             ],
-            "resale": "0",
+            "resale": "20",
             "image": "Curry Pilaf.png"
         },
         {
@@ -77,7 +89,7 @@
                 "Hylian Rice",
                 "Goron Spice"
             ],
-            "resale": "0",
+            "resale": "12",
             "image": "Curry Rice.png"
         },
         {
@@ -88,7 +100,7 @@
                 "Bird Egg",
                 "Cane Sugar"
             ],
-            "resale": "0",
+            "resale": "18",
             "image": "Egg Pudding.png"
         },
         {
@@ -100,7 +112,7 @@
                 "Cane Sugar",
                 "Goat Butter"
             ],
-            "resale": "0",
+            "resale": "28",
             "image": "Egg Tart.png"
         },
         {
@@ -110,7 +122,7 @@
                 "Hylian Shroom",
                 "Hyrule Bass"
             ],
-            "resale": "0",
+            "resale": "15",
             "image": "Fish and Mushroom Skewer.png"
         },
         {
@@ -122,7 +134,7 @@
                 "Goat Butter",
                 "Rock Salt"
             ],
-            "resale": "0",
+            "resale": "33",
             "image": "Fish Pie.png"
         },
         {
@@ -131,18 +143,8 @@
             "ingredients": [
                 "Hyrule Bass"
             ],
-            "resale": "0",
+            "resale": "9",
             "image": "Fish Skewer.png"
-        },
-        {
-            "name": "Fragrant Mushroom Saute",
-            "desc": "\"The fragrant aroma of this sauteed spice and mushroom dish makes your mouth water.\"",
-            "ingredients": [
-                "Hylian Shroom",
-                "Goron Spice"
-            ],
-            "resale": "0",
-            "image": "Fragrant Mushroom Saute.png"
         },
         {
             "name": "Fried Egg and Rice",
@@ -151,7 +153,7 @@
                 "Hylian Rice",
                 "Bird Egg"
             ],
-            "resale": "0",
+            "resale": "10",
             "image": "Fried Egg and Rice.png"
         },
         {
@@ -160,7 +162,7 @@
             "ingredients": [
                 "Hyrule Herb"
             ],
-            "resale": "0",
+            "resale": "4",
             "image": "Fried Wild Greens.png"
         },
         {
@@ -170,7 +172,7 @@
                 "Apple",
                 "Hylian Shroom"
             ],
-            "resale": "0",
+            "resale": "10",
             "image": "Fruit and Mushroom Mix.png"
         },
         {
@@ -182,7 +184,7 @@
                 "Cane Sugar",
                 "Goat Butter"
             ],
-            "resale": "30",
+            "resale": "28",
             "image": "Fruit Pie.png"
         },
         {
@@ -194,7 +196,7 @@
                 "Tabantha Wheat",
                 "Cane Sugar"
             ],
-            "resale": "0",
+            "resale": "28",
             "image": "Fruitcake.png"
         },
         {
@@ -205,7 +207,7 @@
                 "Hylian Rice",
                 "Rock Salt"
             ],
-            "resale": "0",
+            "resale": "82",
             "image": "Gourmet Meat and Rice Bowl.png"
         },
         {
@@ -215,7 +217,7 @@
                 "Raw Gourmet Meat",
                 "Hyrule Bass"
             ],
-            "resale": "0",
+            "resale": "71",
             "image": "Gourmet Meat and Seafood Fry.png"
         },
         {
@@ -226,7 +228,7 @@
                 "Hylian Rice",
                 "Goron Spice"
             ],
-            "resale": "0",
+            "resale": "86",
             "image": "Gourmet Meat Curry.png"
         },
         {
@@ -238,7 +240,7 @@
                 "Goat Butter",
                 "Fresh Milk"
             ],
-            "resale": "0",
+            "resale": "105",
             "image": "Gourmet Meat Stew.png"
         },
         {
@@ -249,7 +251,7 @@
                 "Hylian Rice",
                 "Goron Spice"
             ],
-            "resale": "0",
+            "resale": "86",
             "image": "Gourmet Poultry Curry.png"
         },
         {
@@ -261,7 +263,7 @@
                 "Bird Egg",
                 "Goat Butter"
             ],
-            "resale": "0",
+            "resale": "105",
             "image": "Gourmet Poultry Pilaf.png"
         },
         {
@@ -271,18 +273,8 @@
                 "Raw Gourmet Meat",
                 "Goron Spice"
             ],
-            "resale": "0",
+            "resale": "68",
             "image": "Gourmet Spiced Meat Skewer.png"
-        },
-        {
-            "name": "Herb Saute",
-            "desc": "\"A fragrant mixture of herbs and spices. It's easily recognized by its unique aroma.\"",
-            "ingredients": [
-                "Hyrule Herb",
-                "Goron Spice"
-            ],
-            "resale": "0",
-            "image": "Herb Saute.png"
         },
         {
             "name": "Hot Buttered Apple",
@@ -291,7 +283,7 @@
                 "Apple",
                 "Goat Butter"
             ],
-            "resale": "0",
+            "resale": "10",
             "image": "Hot Buttered Apple.png"
         },
         {
@@ -301,7 +293,7 @@
                 "Raw Meat",
                 "Hylian Shroom"
             ],
-            "resale": "0",
+            "resale": "19",
             "image": "Meat and Mushroom Skewer.png"
         },
         {
@@ -312,7 +304,7 @@
                 "Hylian Rice",
                 "Rock Salt"
             ],
-            "resale": "0",
+            "resale": "26",
             "image": "Meat and Rice Bowl.png"
         },
         {
@@ -322,7 +314,7 @@
                 "Hyrule Bass",
                 "Raw Bird Drumstick"
             ],
-            "resale": "0",
+            "resale": "24",
             "image": "Meat and Seafood Fry.png"
         },
         {
@@ -333,7 +325,7 @@
                 "Raw Meat",
                 "Hylian Rice"
             ],
-            "resale": "0",
+            "resale": "30",
             "image": "Meat Curry.png"
         },
         {
@@ -345,7 +337,7 @@
                 "Rock Salt",
                 "Raw Gourmet Meat"
             ],
-            "resale": "110",
+            "resale": "103",
             "image": "Meat Pie.png"
         },
         {
@@ -354,7 +346,7 @@
             "ingredients": [
                 "Raw Meat"
             ],
-            "resale": "0",
+            "resale": "12",
             "image": "Meat Skewer.png"
         },
         {
@@ -366,7 +358,7 @@
                 "Tabantha Wheat",
                 "Goat Butter"
             ],
-            "resale": "0",
+            "resale": "40",
             "image": "Meat Stew.png"
         },
         {
@@ -376,7 +368,7 @@
                 "Raw Meat",
                 "Hylian Rice"
             ],
-            "resale": "0",
+            "resale": "19",
             "image": "Meaty Rice Balls.png"
         },
         {
@@ -385,7 +377,7 @@
             "ingredients": [
                 "Fresh Milk"
             ],
-            "resale": "0",
+            "resale": "4",
             "image": "Milk.png"
         },
         {
@@ -397,7 +389,7 @@
                 "Cane Sugar",
                 "Goat Butter"
             ],
-            "resale": "0",
+            "resale": "28",
             "image": "Monster Cake.png"
         },
         {
@@ -408,8 +400,54 @@
                 "Goron Spice",
                 "Monster Extract"
             ],
-            "resale": "0",
+            "resale": "20",
             "image": "Monster Curry.png"
+        },
+        {
+            "name": "Monster Rice Balls",
+            "desc": "\"Rice balls flavored with monster extract. Their unique aroma is not for everyone.\"",
+            "ingredients": [
+                "Monster Extract",
+                "Hylian Rice",
+                "Rock Salt"
+            ],
+            "resale": "16",
+            "image": "Monster Rice Balls.png"
+        },
+        {
+            "name": "Monster Soup",
+            "desc": "\"Using monster extract as a base, this soup's distinct gaminess is either loved or hated.\"",
+            "ingredients": [
+                "Fresh Milk",
+                "Tabantha Wheat",
+                "Goat Butter",
+                "Monster Extract"
+            ],
+            "resale": "28",
+            "image": "Monster Soup.png"
+        },
+        {
+            "name": "Monster Stew",
+            "desc": "\"Meat and seafood simmered in monster extract. A savory dish despite its ingredients.\"",
+            "ingredients": [
+                "Raw Meat",
+                "Hyrule Bass",
+                "Monster Extract"
+            ],
+            "resale": "34",
+            "image": "Monster Stew.png"
+        },
+        {
+            "name": "Mushroom Omelet",
+            "desc": "\"The fluffy texture of this omelet is one of the great joys of this dish, as well as life.\"",
+            "ingredients": [
+                "Hylian Shroom",
+                "Bird Egg",
+                "Goat Butter",
+                "Rock Salt"
+            ],
+            "resale": "26",
+            "image": "Mushroom Omelet.png"
         },
         {
             "name": "Mushroom Rice Balls",
@@ -418,7 +456,7 @@
                 "Hylian Shroom",
                 "Hylian Rice"
             ],
-            "resale": "0",
+            "resale": "10",
             "image": "Mushroom Rice Balls.png"
         },
         {
@@ -429,7 +467,7 @@
                 "Goat Butter",
                 "Rock Salt"
             ],
-            "resale": "0",
+            "resale": "16",
             "image": "Mushroom Risotto.png"
         },
         {
@@ -438,7 +476,7 @@
             "ingredients": [
                 "Hylian Shroom"
             ],
-            "resale": "0",
+            "resale": "4",
             "image": "Mushroom Skewer.png"
         },
         {
@@ -450,7 +488,7 @@
                 "Cane Sugar",
                 "Goat Butter"
             ],
-            "resale": "0",
+            "resale": "26",
             "image": "Nutcake.png"
         },
         {
@@ -459,7 +497,7 @@
             "ingredients": [
                 "Bird Egg"
             ],
-            "resale": "0",
+            "resale": "4",
             "image": "Omelet.png"
         },
         {
@@ -471,7 +509,7 @@
                 "Tabantha Wheat",
                 "Cane Sugar"
             ],
-            "resale": "0",
+            "resale": "28",
             "image": "Plain Crepe.png"
         },
         {
@@ -482,7 +520,7 @@
                 "Hylian Rice",
                 "Goron Spice"
             ],
-            "resale": "0",
+            "resale": "30",
             "image": "Poultry Curry.png"
         },
         {
@@ -494,8 +532,87 @@
                 "Bird Egg",
                 "Goat Butter"
             ],
-            "resale": "0",
+            "resale": "40",
             "image": "Poultry Pilaf.png"
+        },
+        {
+            "name": "Prime Meat and Rice Bowl",
+            "desc": "\"This bowl is loaded with high-quality meat. Your hunt for a serious meal ends here.\"",
+            "ingredients": [
+                "Raw Prime Meat",
+                "Hylian Rice",
+                "Rock Salt"
+            ],
+            "resale": "41",
+            "image": "Prime Meat and Rice Bowl.png"
+        },
+        {
+            "name": "Prime Meat and Seafood Fry",
+            "desc": "\"This comfort dish is made with choice cuts of meat and seafood.\"",
+            "ingredients": [
+                "Armoranth",
+                "Raw Prime Meat",
+                "Armored Porgy",
+                "Ironshell Crab"
+            ],
+            "resale": "91",
+            "image": "Prime Meat and Seafood Fry.png"
+        },
+        {
+            "name": "Prime Meat Curry",
+            "desc": "\"The high-quality meat in this curry has given it a deeper taste than most other curries.\"",
+            "ingredients": [
+                "Raw Prime Meat",
+                "Hylian Rice",
+                "Goron Spice"
+            ],
+            "resale": "45",
+            "image": "Prime Meat Curry.png"
+        },
+        {
+            "name": "Prime Meat Stew",
+            "desc": "\"Letting the large portions of choice cuts of meat simmer brought out their savoriness.\"",
+            "ingredients": [
+                "Raw Prime Meat",
+                "Tabantha Wheat",
+                "Goat Butter",
+                "Fresh Milk"
+            ],
+            "resale": "57",
+            "image": "Prime Meat Stew.png"
+        },
+        {
+            "name": "Prime Poultry Curry",
+            "desc": "\"The secret to this curry's flavor is taking it off the heat while you add the spices.\"",
+            "ingredients": [
+                "Raw Bird Thigh",
+                "Hylian Rice",
+                "Goron Spice"
+            ],
+            "resale": "45",
+            "image": "Prime Poultry Curry.png"
+        },
+        {
+            "name": "Prime Poultry Pilaf",
+            "desc": "\"The rice permeates the savory taste of the poultry in this Gerudo-region favorite.\"",
+            "ingredients": [
+                "Raw Bird Thigh",
+                "Hylian Rice",
+                "Bird Egg",
+                "Goat Butter"
+            ],
+            "resale": "57",
+            "image": "Prime Poultry Pilaf.png"
+        },
+        {
+            "name": "Prime Spiced Meat Skewer",
+            "desc": "\"The simple preparation of this steak dish belies its complex taste profile.\"",
+            "ingredients": [
+                "Raw Prime Meat",
+                "Goron Spice"
+            ],
+            "resale": "33",
+            "image": "Prime Spiced Meat Skewer.png"
         },
         {
             "name": "Salt-Grilled Fish",
@@ -504,7 +621,7 @@
                 "Rock Salt",
                 "Hyrule Bass"
             ],
-            "resale": "0",
+            "resale": "14",
             "image": "Salt-Grilled Fish.png"
         },
         {
@@ -515,7 +632,7 @@
                 "Raw Gourmet Meat",
                 "Rock Salt"
             ],
-            "resale": "0",
+            "resale": "106",
             "image": "Salt-Grilled Gourmet Meat.png"
         },
         {
@@ -525,7 +642,7 @@
                 "Hyrule Herb",
                 "Rock Salt"
             ],
-            "resale": "0",
+            "resale": "8",
             "image": "Salt-Grilled Greens.png"
         },
         {
@@ -535,7 +652,7 @@
                 "Raw Bird Drumstick",
                 "Rock Salt"
             ],
-            "resale": "0",
+            "resale": "17",
             "image": "Salt-Grilled Meat.png"
         },
         {
@@ -545,8 +662,18 @@
                 "Hylian Shroom",
                 "Rock Salt"
             ],
-            "resale": "0",
+            "resale": "8",
             "image": "Salt-Grilled Mushrooms.png"
+        },
+        {
+            "name": "Salt-Grilled Prime Meat",
+            "desc": "\"A simple yet exquisite dish made by grilling high-quality meat on top of rock salt.\"",
+            "ingredients": [
+                "Raw Prime Meat",
+                "Rock Salt"
+            ],
+            "resale": "29",
+            "image": "Salt-Grilled Prime Meat.png"
         },
         {
             "name": "Seafood Meuniere",
@@ -556,7 +683,7 @@
                 "Goat Butter",
                 "Hyrule Bass"
             ],
-            "resale": "0",
+            "resale": "24",
             "image": "Seafood Meuniere.png"
         },
         {
@@ -566,7 +693,7 @@
                 "Hylian Rice",
                 "Hyrule Bass"
             ],
-            "resale": "0",
+            "resale": "15",
             "image": "Seafood Rice Balls.png"
         },
         {
@@ -575,7 +702,7 @@
             "ingredients": [
                 "Apple"
             ],
-            "resale": "0",
+            "resale": "4",
             "image": "Simmered Fruit.png"
         },
         {
@@ -585,7 +712,7 @@
                 "Raw Meat",
                 "Goron Spice"
             ],
-            "resale": "0",
+            "resale": "21",
             "image": "Spiced Meat Skewer.png"
         },
         {
@@ -595,7 +722,7 @@
                 "Hyrule Herb",
                 "Hyrule Bass"
             ],
-            "resale": "0",
+            "resale": "15",
             "image": "Steamed Fish.png"
         },
         {
@@ -605,7 +732,7 @@
                 "Apple",
                 "Hyrule Herb"
             ],
-            "resale": "0",
+            "resale": "10",
             "image": "Steamed Fruit.png"
         },
         {
@@ -615,7 +742,7 @@
                 "Hyrule Herb",
                 "Raw Meat"
             ],
-            "resale": "0",
+            "resale": "19",
             "image": "Steamed Meat.png"
         },
         {
@@ -625,8 +752,32 @@
                 "Hylian Shroom",
                 "Hyrule Herb"
             ],
-            "resale": "0",
+            "resale": "10",
             "image": "Steamed Mushrooms.png"
+        },
+        {
+            "name": "Vegetable Omelet",
+            "desc": "\"This home-style dish mixes fluffy eggs with chopped vegetables for nutritional balance.\"",
+            "ingredients": [
+                "Hyrule Herb",
+                "Bird Egg",
+                "Goat Butter",
+                "Rock Salt"
+            ],
+            "resale": "26",
+            "image": "Vegetable Omelet.png"
+        },
+        {
+            "name": "Vegetable Risotto",
+            "desc": "\"The sweetness of the ingredients gives this risotto a mild flavor.\"",
+            "ingredients": [
+                "Hyrule Herb",
+                "Hylian Rice",
+                "Goat Butter",
+                "Rock Salt"
+            ],
+            "resale": "26",
+            "image": "Vegetable Risotto.png"
         },
         {
             "name": "Veggie Rice Balls",
@@ -635,7 +786,7 @@
                 "Hylian Rice",
                 "Hyrule Herb"
             ],
-            "resale": "0",
+            "resale": "10",
             "image": "Veggie Rice Balls.png"
         },
         {
@@ -645,8 +796,21 @@
                 "Tabantha Wheat",
                 "Rock Salt"
             ],
-            "resale": "0",
+            "resale": "8",
             "image": "Wheat Bread.png"
+        },
+        {
+            "name": "Wildberry Crepe",
+            "desc": "\"Sweet, tart wildberries are folded into thin, springy dough to make this dessert.\"",
+            "ingredients": [
+                "Bird Egg",
+                "Fresh Milk",
+                "Tabantha Wheat",
+                "Cane Sugar",
+                "Wildberry"
+            ],
+            "resale": "42",
+            "image": "Wildberry Crepe.png"
         },
         {
             "name": "Carrot Cake",
@@ -658,7 +822,7 @@
                 "Cane Sugar",
                 "Goat Butter"
             ],
-            "resale": "0",
+            "resale": "120",
             "image": "Carrot Cake.png"
         },
         {
@@ -669,7 +833,7 @@
                 "Tabantha Wheat",
                 "Goat Butter"
             ],
-            "resale": "60",
+            "resale": "18",
             "image": "Clam Chowder.png"
         },
         {
@@ -681,7 +845,7 @@
                 "Rock Salt",
                 "Razorclaw Crab"
             ],
-            "resale": "40",
+            "resale": "38",
             "image": "Crab Risotto.png"
         },
         {
@@ -691,7 +855,7 @@
                 "Razorclaw Crab",
                 "Goron Spice"
             ],
-            "resale": "30",
+            "resale": "21",
             "image": "Crab Stir-Fry.png"
         },
         {
@@ -703,7 +867,7 @@
                 "Hydromelon",
                 "Hearty Radish"
             ],
-            "resale": "0",
+            "resale": "45",
             "image": "Creamy Heart Soup.png"
         },
         {
@@ -714,7 +878,7 @@
                 "Tabantha Wheat",
                 "Cane Sugar"
             ],
-            "resale": "30",
+            "resale": "22",
             "image": "Fried Bananas.png"
         },
         {
@@ -725,7 +889,7 @@
                 "Raw Meat",
                 "Courser Bee Honey"
             ],
-            "resale": "0",
+            "resale": "43",
             "image": "Glazed Meat.png"
         },
         {
@@ -735,7 +899,7 @@
                 "Endura Shroom",
                 "Courser Bee Honey"
             ],
-            "resale": "0",
+            "resale": "28",
             "image": "Glazed Mushrooms.png"
         },
         {
@@ -745,7 +909,7 @@
                 "Courser Bee Honey",
                 "Cool Safflina"
             ],
-            "resale": "0",
+            "resale": "22",
             "image": "Glazed Veggies.png"
         },
         {
@@ -755,7 +919,7 @@
                 "Apple",
                 "Courser Bee Honey"
             ],
-            "resale": "0",
+            "resale": "22",
             "image": "Honeyed Apple.png"
         },
         {
@@ -765,7 +929,7 @@
                 "Fortified Pumpkin",
                 "Raw Bird Drumstick"
             ],
-            "resale": "30",
+            "resale": "22",
             "image": "Meat-Stuffed Pumpkin.png"
         },
         {
@@ -775,7 +939,7 @@
                 "Hyrule Bass",
                 "Spicy Pepper"
             ],
-            "resale": "0",
+            "resale": "15",
             "image": "Pepper Seafood.png"
         },
         {
@@ -786,7 +950,7 @@
                 "Mighty Thistle",
                 "Raw Bird Drumstick"
             ],
-            "resale": "0",
+            "resale": "32",
             "image": "Pepper Steak.png"
         },
         {
@@ -798,7 +962,7 @@
                 "Armored Porgy",
                 "Mighty Porgy"
             ],
-            "resale": "0",
+            "resale": "62",
             "image": "Porgy Meuniere.png"
         },
         {
@@ -810,7 +974,7 @@
                 "Tabantha Wheat",
                 "Goat Butter"
             ],
-            "resale": "0",
+            "resale": "33",
             "image": "Pumpkin Stew.png"
         },
         {
@@ -821,7 +985,7 @@
                 "Rock Salt",
                 "Hearty Blueshell Snail"
             ],
-            "resale": "0",
+            "resale": "41",
             "image": "Seafood Fried Rice.png"
         },
         {
@@ -834,7 +998,7 @@
                 "Mighty Porgy",
                 "Hearty Blueshell Snail"
             ],
-            "resale": "0",
+            "resale": "92",
             "image": "Seafood Paella.png"
         },
         {
@@ -843,7 +1007,7 @@
             "ingredients": [
                 "Razorclaw Crab"
             ],
-            "resale": "20",
+            "resale": "12",
             "image": "Seafood Skewer.png"
         },
         {
@@ -855,7 +1019,7 @@
                 "Hylian Rice",
                 "Goron Spice"
             ],
-            "resale": "0",
+            "resale": "98",
             "image": "Vegetable Curry.png"
         },
         {
@@ -867,8 +1031,17 @@
                 "Rock Salt",
                 "Monster Extract"
             ],
-            "resale": "0",
+            "resale": "28",
             "image": "Veggie Cream Soup.png"
+        },
+        {
+            "name": "Energizing Honey Candy",
+            "desc": "\"Instantly refills some of your Stamina Wheel. A natural sweet, brimming with nutrition and made by stewing fresh honey.\"",
+            "ingredients": [
+                "Courser Bee Honey"
+            ],
+            "resale": "15",
+            "image": "Energizing Honey Candy.png"
         },
         {
             "name": "Energizing Honey Crepe",
@@ -880,55 +1053,49 @@
                 "Goat Butter",
                 "Cane Sugar"
             ],
-            "resale": "0",
+            "resale": "58",
             "image": "Energizing Honey Crepe.png"
-        },
-        {
-            "name": "Spicy Sauteed Peppers",
-            "desc": "\"The spiciness of these sauteed peppers has been broken by the heat for a sweeter taste.\"",
-            "ingredients": [
-                "Spicy Pepper"
-            ],
-            "resale": "0",
-            "image": "Spicy Sauteed Peppers.png"
         }
     ],
     "ingredients": [
-        "Hyrule Bass",
-        "Goron Spice",
-        "Fresh Milk",
-        "Rock Salt",
-        "Tabantha Wheat",
-        "Hearty Blueshell Snail",
-        "Endura Shroom",
-        "Goat Butter",
         "Wildberry",
-        "Hylian Rice",
-        "Bird Egg",
-        "Cane Sugar",
-        "Raw Gourmet Meat",
-        "Raw Prime Meat",
-        "Mighty Thistle",
-        "Razorclaw Crab",
-        "Swift Carrot",
-        "Mighty Bananas",
-        "Endura Carrot",
-        "Hearty Radish",
-        "Hylian Shroom",
-        "Courser Bee Honey",
-        "Cool Safflina",
-        "Fortified Pumpkin",
-        "Acorn",
-        "Raw Meat",
-        "Mighty Porgy",
         "Apple",
-        "Spicy Pepper",
-        "Hyrule Herb",
+        "Rock Salt",
+        "Ironshell Crab",
         "Voltfruit",
+        "Hyrule Herb",
+        "Fortified Pumpkin",
+        "Raw Bird Drumstick",
+        "Fresh Milk",
+        "Hylian Shroom",
+        "Armoranth",
+        "Raw Prime Meat",
         "Monster Extract",
+        "Courser Bee Honey",
+        "Razorclaw Crab",
+        "Cane Sugar",
         "Armored Porgy",
-        "Raw Whole Bird",
+        "Goron Spice",
+        "Raw Meat",
+        "Acorn",
+        "Swift Carrot",
+        "Mighty Thistle",
+        "Hearty Radish",
+        "Endura Carrot",
         "Hydromelon",
-        "Raw Bird Drumstick"
+        "Tabantha Wheat",
+        "Raw Whole Bird",
+        "Spicy Pepper",
+        "Hyrule Bass",
+        "Endura Shroom",
+        "Raw Bird Thigh",
+        "Hylian Rice",
+        "Goat Butter",
+        "Raw Gourmet Meat",
+        "Cool Safflina",
+        "Mighty Porgy",
+        "Mighty Bananas",
+        "Bird Egg",
+        "Hearty Blueshell Snail"
     ]
 }

@@ -1,6 +1,6 @@
 # Development
 - 2 Filtering categories
-    - [ ] Filter by ingredients (list of ingredient checkboxes)
+    - [X] Filter by ingredients (list of ingredient checkboxes)
     - [ ] Filter by selling price (min and max specifier)
 - 1 Sorting feature
     - [ ] Sort by cheapest/expensive for selling price filter
