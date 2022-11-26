@@ -15,7 +15,7 @@ export default function CheckBox({name, ingredients, setIngredients}) {
 
     return (
         <div className="inline">
-            <input type="checkbox" id={name} name={name} onClick={handleClick}/>
+            <input type="checkbox" id={name} name={name} onClick={handleClick} defaultChecked={true}/>
             <label for={name} className="small-font"> {name} </label>
         </div>
     )

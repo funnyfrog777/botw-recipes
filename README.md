@@ -1,17 +1,17 @@
 # Development
 - 2 Filtering categories
     - [X] Filter by ingredients (list of ingredient checkboxes)
-    - [ ] Filter by selling price (min and max specifier)
+    - [X] Filter by selling price (min and max specifier)
 - 1 Sorting feature
-    - [ ] Sort by cheapest/expensive for selling price filter
+    - [X] Sort by cheapest/expensive for selling price filter
 - Aggregator section
-    - [ ] "Cart" that the user can add recipes to
-    - [ ] Total selling price of the items
+    - [X] "Cart" that the user can add recipes to
+    - [X] Total selling price of the items
 - [ ] At least 12 item cards displaying
-    - [ ] Item image
-    - [ ] Categories that your filter uses (ingredients required and selling price)
-    - [ ] Field(s) that your sort uses (selling prices)
-    - [ ] Property you are aggregating (the item itself)
+    - [X] Item image
+    - [X] Categories that your filter uses (ingredients required and selling price)
+    - [X] Field(s) that your sort uses (selling prices)
+    - [X] Property you are aggregating (the item itself)
     - [ ] Button that adds or removes from aggregator (number that display how many are added to cart, with a minus and plus button on either side to add to cart)
 
 ### Link to Deployed Website

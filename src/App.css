@@ -68,8 +68,8 @@
   align-items: center;
   justify-content: flex-start;
   border-style: solid;
-  width: 50%;
-  padding: 1em;
+  width: 30%;
+  padding-bottom: 1em;
 }
 
 .description {
@@ -115,6 +115,14 @@
   display: inline;
   float: left;
   white-space: nowrap;
+}
+
+.image {
+  height: 20vmin;
+}
+
+.icon {
+  height: calc(2vmin);
 }
 
 .button {

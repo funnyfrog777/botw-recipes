@@ -1,21 +1,14 @@
-export default function MealItem({img, name, desc, resale, ingredients, cart, setCart}) {
+export default function MealItem({img, name, desc, resale, ingredients, cart, setCart, total, setTotal}) {
     const handleClick = () => {
-        var temp = cart;
-        if (name in cart) {
-            temp[name] += 1;
-            setCart(temp);
-        } else {
-            temp[name] = 1;
-            setCart(temp);
-        }
-        console.log(cart);
+        setCart([...cart, name]);
+        setTotal(Number(total) + Number(resale));
     }
 
     return (
         <div>
             <div className="Meal-item">
                 <p className="center">{name}</p>
-                <img src={img} alt="meal" height="150"/>
+                <img className="image" src={img} alt={"image of "+name}/>
                 <span>♦{resale}</span>
                 <span className="description"><i>{desc}</i></span>
             </div>
