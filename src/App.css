@@ -2,10 +2,6 @@
   
 }
 
-.center {
-  text-align: center;
-}
-
 .App-header {
   background-color: #282c34;
   background-image: url("images/background.jpg.webp");
@@ -65,11 +61,14 @@
 .Cart {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: flex-start;
   border-style: solid;
-  width: 30%;
+  width: 25%;
+  padding-left: 1em;
+  padding-right: 1em;
   padding-bottom: 1em;
+  margin-top: 1em;
 }
 
 .description {
@@ -106,6 +105,14 @@
   font-size: calc(5px + 2vmin);
 }
 
+.center {
+  text-align: center;
+}
+
+.right-align {
+  text-align: end;
+}
+
 .small-font {
   font-size: calc(2vmin);
   padding-right: 10px;
@@ -123,6 +130,10 @@
 
 .icon {
   height: calc(2vmin);
+}
+
+.icon-2 {
+  height: calc(10px + 2vmin);
 }
 
 .button {

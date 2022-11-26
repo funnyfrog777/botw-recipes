@@ -9,7 +9,7 @@ export default function MealItem({img, name, desc, resale, ingredients, cart, se
             <div className="Meal-item">
                 <p className="center">{name}</p>
                 <img className="image" src={img} alt={"image of "+name}/>
-                <span>♦{resale}</span>
+                <span><img className="icon-2" src="images/Rupee.png" alt={"image of Rupee"}/> {resale}</span>
                 <span className="description"><i>{desc}</i></span>
             </div>
             <div className="dark-green">

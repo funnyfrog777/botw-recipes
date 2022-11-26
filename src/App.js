@@ -34,12 +34,14 @@ function App() {
       <body className="App-body">
         {/* Cart */}
         <div className='Cart'>
-          <p>Cart</p>
+          <p className='center'>Cart</p>
           {cart.map((item, index) => {
             const temp = recipeData.recipes.find(recipe => { return recipe.name === item; })
-            return <span className='small-font'>{item} <img className="icon" src={temp.image} alt={"image of "+item}/></span>
+            return <span className='small-font right-align'>
+              <img className="icon" src={temp.image} alt={"image of "+item}/> {item} . . . <img className="icon" src="images/Rupee.png" alt={"image of Rupee"}/> {temp.resale}
+              </span>
           })}
-          {cart.length === 0 ? <i className='small-font'>No recipes added</i> : <p className='small-font'>Total Resale: ♦{total}</p>}
+          {cart.length === 0 ? <i className='small-font center'>No recipes added</i> : <p className='small-font right-align'>Total Resale: <img className="icon" src="images/Rupee.png" alt={"image of Rupee"}/> {total}</p>}
         </div>
         {/* Filters */}
         <div className="Filter-display">
@@ -55,9 +57,9 @@ function App() {
           </fieldset>
           <fieldset>
             <legend>Resale</legend>
-            <span className="small-font">Minimum: ♦{min}</span>
+            <span className="small-font">Minimum: <img className="icon" src="images/Rupee.png" alt={"image of Rupee"}/> {min}</span>
             <Slider val={min} setVal={setMin} lowerBound={0} upperBound={max}/><br/>
-            <span className="small-font">Maximum: ♦{max}</span>
+            <span className="small-font">Maximum: <img className="icon" src="images/Rupee.png" alt={"image of Rupee"}/> {max}</span>
             <Slider val={max} setVal={setMax} lowerBound={min} upperBound={120}/><br/><br/>
             <span className="small-font">Sort by:</span><br/>
             <div onChange={(event) => setSort(event.target.value === "cheapest" ? true : false)}>
