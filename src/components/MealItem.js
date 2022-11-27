@@ -42,6 +42,7 @@ export default function MealItem({img, name, desc, resale, ingredients, cart, se
             </div>
             <div className="add-items">
                 <span>
+                    Quantity:
                     <button className="button" onClick={handleSubtractClick}>-</button>
                     {numOccurrences()}
                     <button className="button" onClick={handleAddClick}>+</button>

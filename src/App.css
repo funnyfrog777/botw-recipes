@@ -53,15 +53,21 @@
   padding-bottom: 1em;
 }
 
-.Filter-display {
+.Filter-display-row {
   display: flex;
-  padding: 1em;
+  flex-direction: row;
+  padding: 0em 1em 1em 1em;
+}
+
+.Filter-display-col {
+  display: flex;
+  flex-direction: column;
+  padding: 0em 1em 0em 1em;
 }
 
 .Cart {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: flex-start;
   border-style: solid;
   width: 25%;
@@ -149,7 +155,7 @@
 
 .button-2 {
   background: rgb(255, 255, 255);
-  color: rgb(224, 195, 195);;
+  color: rgb(224, 195, 195);
   border-style: hidden;
   border-radius: 6px;
   font-family: 'Hylia';
@@ -157,7 +163,36 @@
   font-weight: bold;
 }
 .button-2:hover {
-  color: rgb(204, 77, 77);
+  color: rgb(212, 45, 45);
+}
+
+.button-3 {
+  background: rgb(203, 83, 83);
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  font-family: 'Hylia';
+  font-size: calc(1vmin);
+  font-weight: bold;
+}
+
+.button-4 {
+  background-color: #345a40;
+  color: #ffffff;
+  width: 90%;
+  border-radius: 6px;
+  margin: 3vmin 0vmin 1vmin 0vmin;
+  font-family: 'Hylia';
+  font-size: calc(2vmin);
+}
+
+.button-5 {
+  background-color: #345a40;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  font-family: 'Hylia';
+  font-size: calc(3px + 1vmin);
+  font-weight: bold;
+  margin-right: 2vmin;
 }
 
 @font-face {

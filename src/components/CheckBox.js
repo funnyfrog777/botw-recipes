@@ -1,4 +1,4 @@
-export default function CheckBox({name, ingredients, setIngredients}) {
+export default function CheckBox({id, name, ingredients, setIngredients}) {
 
     const handleClick = () => {
         var array = [...ingredients];
