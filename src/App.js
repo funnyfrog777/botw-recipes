@@ -32,6 +32,7 @@ function App() {
 
   const handleClearCart = () => {
     setCart([]);
+    setTotal(0);
   };
 
   const handleClearFilters = () => {
