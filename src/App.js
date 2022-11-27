@@ -114,7 +114,7 @@ function App() {
         </div>
         {/* Recipes */}
         <div className="Recipe-display">
-          {recipeData.recipes.sort((a, b) => sort ? Number(a.resale) > Number(b.resale) : Number(a.resale) < Number(b.resale)).map((item, index) => {
+          {recipeData.recipes.sort().sort((a, b) => sort ? Number(a.resale) > Number(b.resale) : Number(a.resale) < Number(b.resale)).map((item, index) => {
             if (item.ingredients.every(i=> ingredients.includes(i)) && Number(item.resale) >= min && Number(item.resale) <= max) {
               return <MealItem img={item.image} name={item.name} desc={item.desc} resale={item.resale} ingredients={item.ingredients} cart={cart} setCart={setCart} total={total} setTotal={setTotal}/>
             } else {

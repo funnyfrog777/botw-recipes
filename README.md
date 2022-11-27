@@ -18,10 +18,23 @@
 [https://funnyfrog777.github.io/botw-recipes](https://funnyfrog777.github.io/botw-recipes)
 
 ### Goal and Value of the Application
-TODO
+Cooking is a large part of the video game, *Breath of the Wild*. Cooked meals can be used to restore hearts or to sell for rupees (the in-game currency). However, there is no in-game recipe book, which forces the user to either remember the recipes they discover or Google them. 
+
+This application provides a way for users to quickly look through all the recipes they can make given the ingredients they own. Each recipe card displays the required ingredients as well as the resale price. Users can also add recipes to their "Recipes to Make" cart that allows users to quickly see the total amount of rupees they can make if they made all the recipes they added. Users can also sort and filter by resale price if the user only want to sell cheap or expensive items.
 
 ### Usability Principles Considered
-TODO
+#### Usability
+1. I added all filters and recipe cart at the top of the website which makes it easier to see which filters have been applied and what recipes have been added.
+2. Each recipe is a card-view in a grid format which makes it easy to quickly scroll through all the recipes.
+3. You can add or remove items on each recipe's card. You can also remove items from the "Recipes to Make" cart as well. That way if you want to remove an item from the cart, you don't have to scroll all the way to the corresponding card.
+4. I added functionality to either select or deselect all ingredients. This can be useful if you have a lot of ingredients and just want to deselect some, or if you have very few ingredients and just want to select some.
+#### Learnability
+1. The checkboxes imply an "and" operation, which is correct for filtering the recipe cards. If you are missing one ingredient, you can't make the recipe at all even if you have all the other ingredients.
+2. The sliders imply a "range", which is correct for filtering by price because the minimum and maximum resale prices operate on a sliding scale.
+3. The radio button imply a "select one" operation, which is correct for the "Sort By" filter because you can either sort by low-to-high or high-to-low.
+4. All the buttons and card views follow the same format which makes it easy to learn/digest.
+#### Memorability
+1. Easy to remember that all the filtering and aggregation is at the top of the webpage, while all the available recipes are are below that.
 
 ### Organization of Components
 TODO
