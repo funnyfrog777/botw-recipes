@@ -5,6 +5,7 @@ import recipeData from './assets/recipes.json'
 import MealItem from './components/MealItem';
 import CheckBox from './components/CheckBox';
 import Slider from './components/Slider';
+import Rupee from './components/Rupee'
 
 recipeData.recipes.forEach((item) => {
   item.image = process.env.PUBLIC_URL + "/images/" + item.image;
@@ -18,13 +19,16 @@ function App() {
   const [cart, setCart] = useState([]);
   const [total, setTotal] = useState(0);
   const [sort, setSort] = useState(true); // sort === true ? low-to-high : high-to-low
-  // const handleAllClick = () => {
-  //   if (recipeData.ingredients.every(i=> ingredients.includes(i))) {
-  //     setIngredients([]);
-  //   } else {
-  //     setIngredients(recipeData.ingredients);
-  //   }
-  // }
+
+  const handleClick = (name, resale) => {
+    var temp = [...cart];
+    var index = temp.indexOf(name);
+    if (index !== -1) {
+      temp.splice(index, 1);
+      setCart(temp);
+      setTotal(Number(total) - Number(resale));
+    }
+  };
 
   return (
     <div className="App">
@@ -38,28 +42,27 @@ function App() {
           {cart.map((item, index) => {
             const temp = recipeData.recipes.find(recipe => { return recipe.name === item; })
             return <span className='small-font right-align'>
-              <img className="icon" src={temp.image} alt={"image of "+item}/> {item} . . . <img className="icon" src="images/Rupee.png" alt={"image of Rupee"}/> {temp.resale}
+              <button className='button-2' onClick={e => handleClick(item, temp.resale)}>-<img className="icon" src={temp.image} alt={item}/></button>
+              {item} . . . . . <Rupee/> {temp.resale}
               </span>
           })}
-          {cart.length === 0 ? <i className='small-font center'>No recipes added</i> : <p className='small-font right-align'>Total Resale: <img className="icon" src="images/Rupee.png" alt={"image of Rupee"}/> {total}</p>}
+          {cart.length === 0 ? 
+            <i className='small-font center'>No recipes added</i> : 
+            <p className='label right-align'>Total Resale: <Rupee/> {total}</p>}
         </div>
         {/* Filters */}
         <div className="Filter-display">
           <fieldset>
             <legend>Ingredients</legend>
-            {/* <div>
-              <input type="checkbox" id="All" name="All" onClick={handleAllClick} defaultChecked={true}/>
-              <label for="All" className="small-font"> All Ingredients </label>
-            </div> */}
             {recipeData.ingredients.map((item, index) => (
               <CheckBox name={item} ingredients={ingredients} setIngredients={setIngredients}/>
             ))}
           </fieldset>
           <fieldset>
             <legend>Resale</legend>
-            <span className="small-font">Minimum: <img className="icon" src="images/Rupee.png" alt={"image of Rupee"}/> {min}</span>
+            <span className="small-font">Minimum: <Rupee/> {min}</span>
             <Slider val={min} setVal={setMin} lowerBound={0} upperBound={max}/><br/>
-            <span className="small-font">Maximum: <img className="icon" src="images/Rupee.png" alt={"image of Rupee"}/> {max}</span>
+            <span className="small-font">Maximum: <Rupee/> {max}</span>
             <Slider val={max} setVal={setMax} lowerBound={min} upperBound={120}/><br/><br/>
             <span className="small-font">Sort by:</span><br/>
             <div onChange={(event) => setSort(event.target.value === "cheapest" ? true : false)}>
@@ -74,7 +77,7 @@ function App() {
             if (item.ingredients.every(i=> ingredients.includes(i)) && item.resale >= min && item.resale <= max) {
               return <MealItem img={item.image} name={item.name} desc={item.desc} resale={item.resale} ingredients={item.ingredients} cart={cart} setCart={setCart} total={total} setTotal={setTotal}/>
             } else {
-              return;
+              return null;
             }
           })}
         </div>

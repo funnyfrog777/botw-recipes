@@ -12,7 +12,7 @@
     - [X] Categories that your filter uses (ingredients required and selling price)
     - [X] Field(s) that your sort uses (selling prices)
     - [X] Property you are aggregating (the item itself)
-    - [ ] Button that adds or removes from aggregator (number that display how many are added to cart, with a minus and plus button on either side to add to cart)
+    - [X] Button that adds or removes from aggregator (number that display how many are added to cart, with a minus and plus button on either side to add to cart)
 
 ### Link to Deployed Website
 If you used the stencil code, this is `https://funnyfrog777.github.io/botw-recipes`
