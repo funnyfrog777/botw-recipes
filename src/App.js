@@ -16,24 +16,10 @@ function App() {
   const [ingredients, setIngredients] = useState(recipeData.ingredients);
   const [min, setMin] = useState(0);
   const [max, setMax] = useState(158);
-  const [cart, setCart] = useState([]);
-  const [total, setTotal] = useState(0);
-  const [sort, setSort] = useState(true); // sort === true ? low-to-high : high-to-low
 
-  const handleClick = (name, resale) => {
-    var temp = [...cart];
-    var index = temp.indexOf(name);
-    if (index !== -1) {
-      temp.splice(index, 1);
-      setCart(temp);
-      setTotal(Number(total) - Number(resale));
-    }
-  };
-
-  const handleClearCart = () => {
-    setCart([]);
-    setTotal(0);
-  };
+  const [sortType, setSortType] = useState("val"); // {"val":valSort} {"name", nameSort}
+  const [valSort, setValSort] = useState(true); //   valSort === true ? low-to-high : high-to-low
+  const [nameSort, setNameSort] = useState(true); // nameSort == true ? A-Z : Z-A
 
   const handleClearFilters = () => {
     setMin(0);
@@ -44,7 +30,7 @@ function App() {
     recipeData.ingredients.map((item, index) => {
       return document.getElementById(item).checked = true;
     })
-    setSort(true);
+    setValSort(true);
 
   };
 
@@ -68,23 +54,6 @@ function App() {
         <h1>Breath of the Wild Recipes</h1>
       </header>
       <body className="App-body">
-        {/* Cart */}
-        <div className='Cart'>
-          <p className='center'>Recipes to Make</p>
-          {cart.map((item, index) => {
-            const temp = recipeData.recipes.find(recipe => { return recipe.name === item; })
-            return <span className='small-font right-align'>
-              <button className='button-2' onClick={e => handleClick(item, temp.resale)}>x <img className="icon" src={temp.image} alt={item}/></button>
-              {item} . . . . . <Rupee/> {temp.resale}
-              </span>
-          })}
-          {cart.length === 0 ? 
-            <i className='small-font center'>No recipes added</i> : 
-            <p className='label right-align'>
-              Total Resale: <Rupee/> {total} <br/>
-              <button className='button-3' onClick={handleClearCart}>Clear Recipes</button>
-            </p>}
-        </div>
         {/* Filters */}
         <button className='button-4' onClick={handleClearFilters}>Reset Filters</button> {/* RESET */}
         <div className="Filter-display-row">
@@ -106,22 +75,34 @@ function App() {
             </fieldset>
             <fieldset>
               <legend>Sort By</legend> {/* SORT BY */}
-              <div onChange={(event) => setSort(event.target.value === "cheapest" ? true : false)}>
-                <input type='radio' name="cheapest" value="cheapest" checked={sort}/><label for="cheapest" className="small-font"> Low to High </label><br/>
-                <input type='radio' name="expensive" value="expensive" checked={!sort}/><label for="expensive" className="small-font"> High to Low </label>
+              <p className='sub-header'>Price</p>
+              <div onChange={(event) => {setValSort(event.target.value === "cheapest" ? true : false); setSortType("val")}}>
+                <input type='radio' name="cheapest" value="cheapest" checked={valSort && sortType === "val"}/><label for="cheapest" className="small-font"> Low to High </label><br/>
+                <input type='radio' name="expensive" value="expensive" checked={!valSort && sortType === "val"}/><label for="expensive" className="small-font"> High to Low </label>
+              </div>
+              <br/>
+              <p className='sub-header'>Name</p>
+              <div onChange={(event) => {setValSort(event.target.value === "A-Z" ? true : false); setSortType("name")}}>
+                <input type='radio' name="A-Z" value="A-Z" checked={nameSort && sortType === "name"}/><label form='A-Z' className='small-font'> A-Z </label><br/>
+                <input type='radio' name="Z-A" value="Z-A" checked={!nameSort && sortType === "name"}/><label form='Z-A' className='small-font'> Z-A </label>
               </div>
             </fieldset>
           </div>
         </div>
         {/* Recipes */}
         <div className="Recipe-display">
-          {recipeData.recipes.sort((a, b) => a.name > b.name).sort((a, b) => sort ? Number(a.resale) > Number(b.resale) : Number(a.resale) < Number(b.resale)).map((item, index) => {
-            if (item.ingredients.every(i=> ingredients.includes(i)) && Number(item.resale) >= min && Number(item.resale) <= max) {
-              return <MealItem img={item.image} name={item.name} desc={item.desc} resale={item.resale} ingredients={item.ingredients} cart={cart} setCart={setCart} total={total} setTotal={setTotal}/>
-            } else {
-              return null;
-            }
-          })}
+          {sortType === "val" ?
+            recipeData.recipes.sort((a, b) => a.name > b.name).sort((a, b) => valSort ? Number(a.resale) > Number(b.resale) : Number(a.resale) < Number(b.resale)).map((item, index) => {
+              if (item.ingredients.every(i=> ingredients.includes(i)) && Number(item.resale) >= min && Number(item.resale) <= max) {
+                return <MealItem img={item.image} name={item.name} desc={item.desc} resale={item.resale} ingredients={item.ingredients}/>
+              } else {
+                return null;
+              }
+            }) :
+            recipeData.recipes.sort((a, b) => nameSort ? a.name > b.name : b.name > a.name).map((item, index) => {
+              return <MealItem img={item.image} name={item.name} desc={item.desc} resale={item.resale} ingredients={item.ingredients}/>
+            })
+          }
         </div>
         <br/>
       </body>

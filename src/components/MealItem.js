@@ -1,29 +1,4 @@
-export default function MealItem({img, name, desc, resale, ingredients, cart, setCart, total, setTotal}) {
-    const handleAddClick = () => {
-        setCart([...cart, name]);
-        setTotal(Number(total) + Number(resale));
-    };
-
-    const handleSubtractClick = () => {
-        var temp = [...cart];
-        var index = temp.indexOf(name);
-        if (index !== -1) {
-            temp.splice(index, 1);
-            setCart(temp);
-            setTotal(Number(total) - Number(resale));
-        }
-    };
-
-    const numOccurrences = () => {
-        var counter = 0;
-        cart.forEach(element => {
-            if (element === name) {
-                counter += 1;
-            }
-        });
-        return counter;
-    };
-
+export default function MealItem({img, name, desc, resale, ingredients}) {
     return (
         <div>
             <div className="Meal-item">
@@ -39,14 +14,6 @@ export default function MealItem({img, name, desc, resale, ingredients, cart, se
                         <p>- {item}</p>
                     ))}
                 </div>
-            </div>
-            <div className="add-items">
-                <span>
-                    Quantity:
-                    <button className="button" onClick={handleSubtractClick}>-</button>
-                    {numOccurrences()}
-                    <button className="button" onClick={handleAddClick}>+</button>
-                </span>
             </div>
         </div>
     )
