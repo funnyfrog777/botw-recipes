@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/botw-recipes/static/css/main.f44fed19.css",
-    "main.js": "/botw-recipes/static/js/main.44a48ac1.js",
+    "main.js": "/botw-recipes/static/js/main.03025cad.js",
     "static/media/background.jpg.webp": "/botw-recipes/static/media/background.jpg.a94a492375da09167798.webp",
     "static/media/HyliaSerifBeta-Regular.otf": "/botw-recipes/static/media/HyliaSerifBeta-Regular.587194a6240d0f662864.otf",
     "index.html": "/botw-recipes/index.html",
     "main.f44fed19.css.map": "/botw-recipes/static/css/main.f44fed19.css.map",
-    "main.44a48ac1.js.map": "/botw-recipes/static/js/main.44a48ac1.js.map"
+    "main.03025cad.js.map": "/botw-recipes/static/js/main.03025cad.js.map"
   },
   "entrypoints": [
     "static/css/main.f44fed19.css",
-    "static/js/main.44a48ac1.js"
+    "static/js/main.03025cad.js"
   ]
 }
