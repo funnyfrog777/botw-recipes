@@ -28,31 +28,6 @@
   font-family: 'Hylia';
 }
 
-.Recipe-display {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  gap: 20px 20px;
-}
-
-.Meal-item {
-  background-color: #99c07b;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: rgb(255, 255, 255);
-  font-family: 'Hylia';
-  width: 40vmin;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
 .Filter-display-row {
   display: flex;
   flex-direction: row;
@@ -65,13 +40,29 @@
   padding: 0em 1em 0em 1em;
 }
 
-.description {
-  display: inline;
-  font-size: calc(2vmin);
-  color: rgb(255, 255, 255);
+.Recipe-display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 10px 10px;
 }
 
-.dark-green {
+.Meal-item {
+  background-color: #99c07b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  font-family: 'Hylia';
+  width: 25vmin;
+  padding: 1vmin 1vmin 1vmin 1vmin;
+}
+
+.Meal-item-ingredients {
   background-color: #89ad6e;
   display: flex;
   flex-direction: column;
@@ -80,10 +71,14 @@
   font-size: calc(10px + 2vmin);
   color: rgb(255, 255, 255);
   font-family: 'Hylia';
-  width: 40vmin;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 0.3em;
+  width: 25vmin;
+  padding: 1vmin 1vmin 0vmin 1vmin;
+}
+
+.description {
+  display: inline;
+  font-size: calc(4px + 1vmin);
+  color: rgb(255, 255, 255);
 }
 
 .label {
@@ -109,6 +104,10 @@
   padding-right: 10px;
 }
 
+.small-margin {
+  margin: 1vmin 0vmin 1vmin 0vmin;
+}
+
 .inline {
   display: inline;
   float: left;
@@ -116,7 +115,7 @@
 }
 
 .image {
-  height: 20vmin;
+  height: 10vmin;
 }
 
 .icon {
