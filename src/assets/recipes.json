@@ -1055,6 +1055,17 @@
             ],
             "resale": "58",
             "image": "Energizing Honey Crepe.png"
+        },
+        {
+            "name": "Salmon Meuniere",
+            "desc": "\"The crispy skin of this fried hearty salmon puts its texture in a class all its own.\"",
+            "ingredients": [
+                "Hearty Salmon",
+                "Tabantha Wheat",
+                "Goat Butter"
+            ],
+            "resale": "-1",
+            "image": "Salmon Meuniere.png"
         }
     ],
     "ingredients": [
@@ -1096,6 +1107,7 @@
         "Mighty Porgy",
         "Mighty Bananas",
         "Bird Egg",
-        "Hearty Blueshell Snail"
+        "Hearty Blueshell Snail",
+        "Hearty Salmon"
     ]
 }
