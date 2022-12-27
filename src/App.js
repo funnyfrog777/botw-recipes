@@ -82,7 +82,7 @@ function App() {
               </div>
               <br/>
               <p className='sub-header'>Name</p>
-              <div onChange={(event) => {setValSort(event.target.value === "A-Z" ? true : false); setSortType("name")}}>
+              <div onChange={(event) => {setNameSort(event.target.value === "A-Z" ? true : false); setSortType("name")}}>
                 <input type='radio' name="A-Z" value="A-Z" checked={nameSort && sortType === "name"}/><label form='A-Z' className='small-font'> A-Z </label><br/>
                 <input type='radio' name="Z-A" value="Z-A" checked={!nameSort && sortType === "name"}/><label form='Z-A' className='small-font'> Z-A </label>
               </div>
